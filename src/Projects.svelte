@@ -2,9 +2,12 @@
 	import gms from "./assets/gms.png";
 	import box from "./assets/box.png";
 	import kaktus from "./assets/kaktus.png";
+	import fivem from "./assets/fivem.png";
+	import znotif from "./assets/znotif.png";
 	import pac3 from "./assets/pac3.png";
 	import inzy from "./assets/inzy.png";
 	import vitals from "./assets/vitals.png";
+	import zquiz from "./assets/zquiz.png";
 	import Card from "./lib/Card.svelte";
 	import Navbar from "./lib/Navbar.svelte";
 	import Footer from "./lib/Footer.svelte";
@@ -77,6 +80,46 @@
 				<span slot="desc">
 					PAC3 pose parser to EGM Animation SWEP base made in order to acquire
 					fast and easy pose creation for roleplay purposes.
+				</span>
+			</Card>
+			<Card src={fivem} tags={["C#"]}>
+				<span slot="title"
+					><a
+						href="https://youtu.be/RsqfBUdF1M0"
+						class="hover:text-gray-300"
+						target="_blank">FiveM Tracker</a
+					></span
+				>
+				<span slot="desc">
+					Simple vehicle tracker done in C# for my unfinished FiveM server.
+				</span>
+			</Card>
+			<Card src={znotif} tags={["Lua"]}>
+				<span slot="title"
+					><a
+						href="https://youtu.be/I1sAMqmDzeY"
+						class="hover:text-gray-300"
+						target="_blank">zNotifications</a
+					></span
+				>
+				<span slot="desc">
+					Notifications system created for DarkRP based gamemodes, allowing
+					faction leaders/admins to easily communicate with large groups of
+					people.
+				</span>
+			</Card>
+			<Card src={zquiz} tags={["Lua"]}>
+				<span slot="title"
+					><a
+						href="https://youtu.be/g7sfarq_0JY"
+						class="hover:text-gray-300"
+						target="_blank">zQuiz</a
+					></span
+				>
+				<span slot="desc">
+					zQuiz is another script created for Pryers.de, mandatory quiz in order
+					to continue playing on their server. Used SneakySquid's circles
+					library for result animations.
 				</span>
 			</Card>
 		</div>

@@ -67,7 +67,13 @@
 				</span>
 			</Card>
 			<Card src={pac3} tags={["Python", "Regex"]}>
-				<span slot="title">PAC3 Parser</span>
+				<span slot="title"
+					><a
+						href="https://github.com/zgredinzyyy/pac3animparser"
+						class="hover:text-gray-300"
+						target="_blank">PAC3 Parser</a
+					></span
+				>
 				<span slot="desc">
 					PAC3 pose parser to EGM Animation SWEP base made in order to acquire
 					fast and easy pose creation for roleplay purposes.

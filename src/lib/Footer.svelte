@@ -2,7 +2,7 @@
 	class="w-full grid place-items-center lg:place-items-end bg-gray-900 pt-6 pb-6"
 >
 	<div class="lg:pr-20">
-		<p class="text-white font-semibold">
+		<p class="text-white font-semibold text-center">
 			<span>2021</span>
 			<span class="text-blue-500">zgredinzyyy</span>
 		</p>

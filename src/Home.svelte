@@ -1,5 +1,5 @@
 <script>
-	import Gif from "./assets/prof.gif";
+	import Gif from "./assets/prof.png";
 	import Footer from "./lib/Footer.svelte";
 	import Navbar from "./lib/Navbar.svelte";
 </script>

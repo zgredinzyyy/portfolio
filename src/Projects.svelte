@@ -2,6 +2,7 @@
 	import gms from "./assets/gms.png";
 	import box from "./assets/box.png";
 	import kaktus from "./assets/kaktus.png";
+	import pac3 from "./assets/pac3.png";
 	import inzy from "./assets/inzy.png";
 	import vitals from "./assets/vitals.png";
 	import Card from "./lib/Card.svelte";
@@ -54,8 +55,8 @@
 				>
 				<span slot="desc"
 					>Kaktusownia is the biggest Garry's Mod community in Poland that runs
-					multiple servers based on DarkRP gamemode. Worked on countless smaller
-					projects during my stay as a developer.
+					multiple servers based on roleplaying gamemodes. Worked on countless
+					smaller projects during my stay as a developer.
 				</span>
 			</Card>
 			<Card src={vitals} tags={["Lua"]}>
@@ -63,6 +64,13 @@
 				<span slot="desc">
 					zMedic is a script created for German community Pryers.de, that
 					included dedicated limb system, vital signs board and etc.
+				</span>
+			</Card>
+			<Card src={pac3} tags={["Python", "Regex"]}>
+				<span slot="title">PAC3 Parser</span>
+				<span slot="desc">
+					PAC3 pose parser to EGM Animation SWEP base made in order to acquire
+					fast and easy pose creation for roleplay purposes.
 				</span>
 			</Card>
 		</div>
